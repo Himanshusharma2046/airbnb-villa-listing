@@ -1,12 +1,84 @@
-# React + Vite
+# Luxury Villa Rental Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based property listing application inspired by Airbnb's user interface. This project showcases a detailed property listing with comprehensive information about amenities, sleeping arrangements, and property features.
 
-Currently, two official plugins are available:
+## 🏠 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Detailed Property Information**: Comprehensive display of property highlights, ratings, and reviews
+- **Interactive Sleeping Arrangements**: Visual representation of bedrooms with different bed types
+- **Extensive Amenities Section**: Categorized amenities with modal view for complete listing
+- **Responsive Design**: Optimized for all device sizes
+- **Modern UI Components**: Horizontal scrolling sections, modals, and interactive elements
 
-## Expanding the ESLint configuration
+## 🚀 Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Tailwind CSS
+- React Icons
+- JavaScript ES6+
+
+## 📸 Screenshots
+
+(Add screenshots of your application here)
+
+## 🛠️ Installation and Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/luxury-villa-rental.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd luxury-villa-rental
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+
+5. Open your browser and visit `http://localhost:3000`
+
+## 🧩 Project Structure
+
+```
+src/
+├── components/
+│   ├── Amenities.jsx          # Amenities section with modal
+│   ├── PropertyDetails.jsx    # Main property information
+│   ├── SleepingArrangements.jsx # Bedroom and bed information
+│   └── ...
+├── assets/
+│   └── ...                    # Images and other static assets
+├── App.js
+└── index.js
+```
+
+## 🔍 Component Details
+
+### PropertyDetails
+Displays the main property information including title, location, ratings, and key features.
+
+### SleepingArrangements
+Shows a horizontally scrollable list of bedrooms with visual indicators for different bed types.
+
+### Amenities
+Displays property amenities with:
+- Initial view showing 8 available and 2 unavailable amenities
+- Modal view with all amenities categorized
+- Special styling for unavailable items
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/luxury-villa-rental/issues).
+
+## 🙏 Acknowledgements
+
+- Design inspiration from Airbnb
+- Icons provided by React Icons
