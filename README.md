@@ -18,8 +18,11 @@ A modern React-based property listing application inspired by Airbnb's user inte
 - JavaScript ES6+
 
 ## 📸 Screenshots
+![Screenshot (365)](https://github.com/user-attachments/assets/c4ead108-0857-4c2f-a8d7-982f867abf8a)
+![Screenshot (366)](https://github.com/user-attachments/assets/40bcaed6-c91c-43bf-869c-6f03983a00cd)
+![Screenshot (367)](https://github.com/user-attachments/assets/c5c02f95-d8d6-427c-a719-b2e70788524f)
 
-(Add screenshots of your application here)
+
 
 ## 🛠️ Installation and Setup
 
