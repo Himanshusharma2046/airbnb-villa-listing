@@ -2,6 +2,10 @@
 
 A modern React-based property listing application inspired by Airbnb's user interface. This project showcases a detailed property listing with comprehensive information about amenities, sleeping arrangements, and property features.
 
+## 🌐 Live Demo
+
+Check out the live demo: [Luxury Villa Rental](https://sage-kulfi-cab68e.netlify.app/)
+
 ## 🏠 Features
 
 - **Detailed Property Information**: Comprehensive display of property highlights, ratings, and reviews
